@@ -10,6 +10,7 @@
     controller = require("./controller"),
     router = express.Router();
 
+  // Call controller
   router.post("/", controller.hookTesting);
 
   module.exports = router;

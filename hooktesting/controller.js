@@ -10,7 +10,11 @@
     if (!req.body) {
       console.log("No body found");
     } else {
+      // Accepting body here
       console.log("Body here", req.body);
+      // Process status and retrieve data
+      // via GET APIs.
+      // Send ACK
       res.json({"Data": req.body})
     }
   }
